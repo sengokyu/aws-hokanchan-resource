@@ -2,11 +2,11 @@
   "name": "google-suggest-api-gateway",
   "version": "0.1.0",
   "bin": {
-    "google-suggest-api-gateway": "bin/google-suggest-api-gateway.js"
+    "google-suggest-api-gateway": "google-suggest-api-gateway.ts"
   },
   "scripts": {
-    "build": "tsc",
-    "watch": "tsc -w",
+    "synth": "cdk synth",
+    "deploy": "cdk deploy",
     "test": "jest",
     "cdk": "cdk"
   },
