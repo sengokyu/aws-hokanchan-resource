@@ -1,5 +1,5 @@
 {
-  "app": "npx ts-node --prefer-ts-exts bin/google-suggest-api-gateway.ts",
+  "app": "npx ts-node --prefer-ts-exts google-suggest-api-gateway.ts",
   "watch": {
     "include": [
       "**"
