@@ -1,4 +1,4 @@
-# AWS API Gateway for Google suggest API
+# AWS API Gateway proxies Google suggest API
 
 ## Configurations
 
