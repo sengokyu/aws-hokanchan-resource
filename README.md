@@ -1,14 +1,12 @@
-# Welcome to your CDK TypeScript project
+# AWS API Gateway for Google suggest API
 
-This is a blank project for CDK development with TypeScript.
+## Configurations
 
-The `cdk.json` file tells the CDK Toolkit how to execute your app.
+| Name         | Description       |
+| :----------- | :---------------- |
+| FRONTEND_URL | CORS allow origin |
 
 ## Useful commands
 
-* `npm run build`   compile typescript to js
-* `npm run watch`   watch for changes and compile
-* `npm run test`    perform the jest unit tests
-* `npx cdk deploy`  deploy this stack to your default AWS account/region
-* `npx cdk diff`    compare deployed stack with current state
-* `npx cdk synth`   emits the synthesized CloudFormation template
+- `npx run deploy` deploy this stack to your default AWS account/region
+- `npx run synth` emits the synthesized CloudFormation template
