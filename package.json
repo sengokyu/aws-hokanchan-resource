@@ -1,14 +1,14 @@
 {
-  "name": "google-suggest-api-gateway",
+  "name": "hokanchan-app",
   "version": "0.1.0",
   "bin": {
-    "google-suggest-api-gateway": "google-suggest-api-gateway.ts"
+    "hokanchan-app": "bin/hokanchan-app.ts"
   },
   "scripts": {
     "synth": "dotenv -- cdk synth",
     "deploy": "dotenv -- cdk deploy",
     "test": "jest",
-    "cdk": "cdk"
+    "cdk": "dotenv -- cdk"
   },
   "devDependencies": {
     "@types/jest": "^29.5.11",
