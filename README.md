@@ -1,12 +1,14 @@
-# AWS API Gateway proxies Google suggest API
+# AWS CDK application for Hokanchan
+
+## Getting started
+
+1. Create a certificate in us-east-1 region.
+2. `cp .env.sample .env && vi .env`
+3. `npm run deploy S3Bucket ApiGateway CloudFront`
 
 ## Configurations
 
-| Name         | Description       |
-| :----------- | :---------------- |
-| FRONTEND_URL | CORS allow origin |
-
-## Useful commands
-
-- `npx run deploy` deploy this stack to your default AWS account/region
-- `npx run synth` emits the synthesized CloudFormation template
+| Name            | Description              |
+| :-------------- | :----------------------- |
+| FRONTEND_URL    |                          |
+| CERTIFICATE_ARN | An ARN of a certificate. |
